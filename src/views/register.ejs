@@ -1,0 +1,21 @@
+<%include ./partials/header %>
+
+  <div class="page-register">
+    <div class="container">
+      <div class="row">
+        <h1>Sign up for FREE!</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form action="/register" method="POST">
+            <input class="form-control" name="username" placeholder="your name here" type="text"></input>
+
+            <input class="form-control" name="password" placeholder="your password here" type="password"></input>
+
+            <button class="btn btn-large btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%include ./partials/footer %>
